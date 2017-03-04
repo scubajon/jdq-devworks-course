@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jdq-devworks-course
+  host: jdq-devworks-course
+  disk_quota: 1024M
+  services:
+  - jdq-devworks-course-cloudantNoSQLDB
+  - Language Translator-kw
+  - Conversation-1i
+  - availability-monitoring-auto
